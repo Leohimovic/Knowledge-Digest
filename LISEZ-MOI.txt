@@ -1,0 +1,16 @@
+KNOWLEDGE DIGEST - site Quartz prêt à l'emploi
+================================================
+
+1. Dézippez ce dossier dans Documents (C:\Users\VotreNom\Documents\knowledge-digest)
+2. Ouvrez PowerShell et tapez :
+     cd ~\Documents\knowledge-digest
+     npm i
+     npx quartz build --serve
+3. Ouvrez http://localhost:8080 dans votre navigateur. Ctrl + C pour arrêter.
+
+Vos notes : mettez vos fichiers .md dans le dossier "content".
+  - content\index.md = la page d'accueil
+  - content\private\ = jamais publié (brouillons)
+  - les notes de "Fondamentaux" sont des exemples, supprimez-les.
+
+Réglages (titre, couleurs, polices, lien LinkedIn) : fichier quartz.config.yaml
